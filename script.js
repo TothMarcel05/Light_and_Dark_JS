@@ -5,7 +5,9 @@ function switchTheme() {
   const cards = document.querySelectorAll('.card')
   const tables =  document.querySelectorAll('.table')
   const cardColums = document.querySelectorAll(".column")
-  const footerText = document.querySelectorAll(".navbar-text")
+  const footerText = document.querySelector(".navbar-text")
+  const h1Title = document.getElementById(".h1_title")
+  
 
   navbar.classList.remove('navbar-light', 'bg-light')
   navbar.classList.add('navbar-dark', 'bg-dark')
@@ -24,7 +26,10 @@ function switchTheme() {
     card.classList.add("col-12");
   })
 
-    footerText.style.paddingLeft = '1200px';
+    footerText.style.float = 'right';
     footerText.style.display = 'block';
     footerText.classList.add('text-white');
+
+    ligthdark.classList.add('text-white');
+    ligthdark.text = "This is the Dark theme";
 }
