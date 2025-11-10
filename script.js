@@ -29,7 +29,7 @@ function switchTheme() {
     card.classList.add("col-12");
   })
 
-    footerText.style.float = 'right';
+    footerText.style.paddingLeft = '1000px';
     footerText.style.display = 'block';
     footerText.classList.add('text-white');
 
@@ -69,7 +69,7 @@ function switchTheme() {
     card.classList.remove("col-12");
   })
 
-    footerText.style.float = 'left';
+    footerText.style.paddingLeft = '100px';
     footerText.style.display = 'block';
     footerText.classList.remove('text-white');
 
