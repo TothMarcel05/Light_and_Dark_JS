@@ -39,7 +39,7 @@ function switchTheme() {
 
     sw.innerHTML = "Activate Light Theme";
   }
-  
+
   else if(document.body.classList.contains("bg-dark"))
 {
   document.body.classList.remove('bg-dark')
@@ -51,7 +51,6 @@ function switchTheme() {
   const footerText = document.querySelector(".navbar-text")
   const h1Title = document.getElementById("h1_title")
   const sw = document.getElementById("themeSwitch")
-  
 
   navbar.classList.add('navbar-light', 'bg-light')
   navbar.classList.remove('navbar-dark', 'bg-dark')
